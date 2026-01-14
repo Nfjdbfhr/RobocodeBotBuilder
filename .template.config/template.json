@@ -2,7 +2,7 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "Andrew G",
   "classifications": [ "Robocode", "Game", "Bot" ],
-  "identity": "Robocode.TankRoyale.Bot",
+  "identity": "RobocodeBot",
   "name": "Robocode Tank Royale Bot",
   "shortName": "robocodebot",
   "sourceName": "MyFirstRoboBot",
@@ -16,7 +16,7 @@
       "datatype": "string",
       "defaultValue": "MyFirstRoboBot",
       "replaces": "MyFirstRoboBot",
-      "description": "Name of the Robocode bot / root namespace"
+      "description": "Bot name, namespace, and project name"
     }
   }
 }
