@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Andrew G",
+  "classifications": [ "Robocode", "Game", "Bot" ],
+  "identity": "Robocode.TankRoyale.Bot",
+  "name": "Robocode Tank Royale Bot",
+  "shortName": "robobot",
+  "sourceName": "MyFirstLeader",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "BotName": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "MyFirstLeader",
+      "replaces": "MyFirstLeader",
+      "description": "Name of the Robocode bot / root namespace"
+    }
+  }
+}
