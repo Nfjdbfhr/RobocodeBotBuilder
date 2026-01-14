@@ -1,1 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <RootNamespace>MyFirstLeader</RootNamespace>
+        <AssemblyName>MyFirstLeader</AssemblyName>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <LangVersion>12.0</LangVersion>
+    </PropertyGroup>
 
+    <ItemGroup>
+        <PackageReference Include="Robocode.TankRoyale.BotApi" Version="0.34.2"/>
+        <PackageReference Include="JetBrains.Annotations" Version="2025.2.4"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.0"/>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.4"/>
+    </ItemGroup>
+</Project>
