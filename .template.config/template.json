@@ -4,8 +4,8 @@
   "classifications": [ "Robocode", "Game", "Bot" ],
   "identity": "Robocode.TankRoyale.Bot",
   "name": "Robocode Tank Royale Bot",
-  "shortName": "robobot",
-  "sourceName": "MyFirstLeader",
+  "shortName": "robocodebot",
+  "sourceName": "MyFirstRoboBot",
   "tags": {
     "language": "C#",
     "type": "project"
@@ -14,8 +14,8 @@
     "BotName": {
       "type": "parameter",
       "datatype": "string",
-      "defaultValue": "MyFirstLeader",
-      "replaces": "MyFirstLeader",
+      "defaultValue": "MyFirstRoboBot",
+      "replaces": "MyFirstRoboBot",
       "description": "Name of the Robocode bot / root namespace"
     }
   }
