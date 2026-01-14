@@ -9,12 +9,12 @@ using Robocode.TankRoyale.BotApi.Events;
 // Probably the first bot you will learn about.
 // Moves in a seesaw motion and spins the gun around at each end.
 // ------------------------------------------------------------------
-public class MyFirstBot : Bot
+public class MyFirstRoboBot : Bot
 {
     // The main method starts our bot
     static void Main(string[] args)
     {
-        new MyFirstBot().Start();
+        new MyFirstRoboBot().Start();
     }
 
     // Called when a new round is started -> initialize and do some movement
