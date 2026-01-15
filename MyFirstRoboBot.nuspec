@@ -23,7 +23,7 @@ Dotnet new template for creating Robocode Tank Royale C# bots.
 
   <files>
     <file src="**\*" exclude="bin\**;obj\**;.git\**" />
-	<file src="MyFirstRoboBot/README.md" target="" />
-	<file src="MyFirstRoboBot/LICENSE" target="" />
+	<file src="MyFirstRoboBot/README.md" target="," />
+	<file src="MyFirstRoboBot/LICENSE" target="," />
   </files>
 </package>
