@@ -16,9 +16,14 @@ Dotnet new template for creating Robocode Tank Royale C# bots.
     </packageTypes>
 
     <repository type="git" url="https://github.com/Nfjdbfhr/RobocodeBotBuilder" />
+
+	<readme>README.md</readme>
+    <license type="file">LICENSE</license>
   </metadata>
 
   <files>
     <file src="**\*" exclude="bin\**;obj\**;.git\**" />
+	<file src="README.md" target="" />
+	<file src="LICENSE" target="" />
   </files>
 </package>
