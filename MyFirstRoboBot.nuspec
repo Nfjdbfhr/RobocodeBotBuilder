@@ -1,0 +1,24 @@
+<package>
+  <metadata>
+    <id>RobocodeBot</id>
+    <version>1.0.0</version>
+    <authors>Andrew G</authors>
+    <owners>Andrew G</owners>
+
+    <description>
+Dotnet new template for creating Robocode Tank Royale C# bots.
+    </description>
+
+    <tags>dotnet-new template robocode tankroyale bot</tags>
+
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+
+    <repository type="git" url="https://github.com/Nfjdbfhr/RobocodeBotBuilder" />
+  </metadata>
+
+  <files>
+    <file src="**\*" exclude="bin\**;obj\**;.git\**" />
+  </files>
+</package>
