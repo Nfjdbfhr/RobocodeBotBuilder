@@ -8,7 +8,21 @@
   "sourceName": "MyFirstRoboBot",
   "tags": {
     "language": "C#",
-    "type": "project"
+    "type": "project",
+    "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "exclude": [
+        "**/*.nuspec",
+        "**/*.nupkg",
+        "_rels/**",
+        "[Content_Types].xml",
+        "package/**",
+        ".signature.p7s"
+      ]
+    }
+  ]
   },
   "symbols": {
     "BotName": {

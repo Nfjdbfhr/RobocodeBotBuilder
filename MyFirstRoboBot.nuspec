@@ -1,14 +1,12 @@
+<?xml version="1.0"?>
 <package>
   <metadata>
     <id>RobocodeBot</id>
-    <version>1.0.0</version>
+    <version>1.0.4</version>
     <authors>Andrew G</authors>
     <owners>Andrew G</owners>
 
-    <description>
-Dotnet new template for creating Robocode Tank Royale C# bots.
-    </description>
-
+    <description>Dotnet new template for creating Robocode Tank Royale C# bots.</description>
     <tags>dotnet-new template robocode tankroyale bot</tags>
 
     <packageTypes>
@@ -17,13 +15,16 @@ Dotnet new template for creating Robocode Tank Royale C# bots.
 
     <repository type="git" url="https://github.com/Nfjdbfhr/RobocodeBotBuilder" />
 
-	<readme>MyFirstRoboBot/README.md</readme>
-    <license type="file">MyFirstRoboBot/LICENSE</license>
+    <!-- Optional NuGet display files -->
+    <readme>content/MyFirstRoboBot/README.md</readme>
+    <license type="file">content/MyFirstRoboBot/LICENSE</license>
   </metadata>
 
   <files>
-    <file src="**\*" exclude="bin\**;obj\**;.git\**" />
-	<file src="MyFirstRoboBot/README.md" target="," />
-	<file src="MyFirstRoboBot/LICENSE" target="," />
+    <!-- Include all template files under content/ so dotnet new only sees them -->
+    <file src="MyFirstRoboBot\**\*" target="content\MyFirstRoboBot\" />
+
+    <!-- Include the template config folder -->
+    <file src=".template.config\**\*" target="content\.template.config\" />
   </files>
 </package>
